@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08AC16EC-E0C4-416A-BAA7-BF84FB5A9963}"
+	ProjectSection(SolutionItems) = preProject
+		CompulsoryCat.vsmdi = CompulsoryCat.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCompulsoryCat", "TestCompulsoryCat\TestCompulsoryCat.csproj", "{BF647C36-0A62-4DAD-8F66-541199566D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompulsoryCat", "CompulsoryCat\CompulsoryCat.csproj", "{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompulsoryCatExample", "CompulsoryCatExample\CompulsoryCatExample.csproj", "{649F1B70-AAF1-4D7C-AEEF-328128F9212D}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CompulsoryCat.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BF647C36-0A62-4DAD-8F66-541199566D9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}.Release|x86.ActiveCfg = Release|Any CPU
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Debug|x86.ActiveCfg = Debug|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Debug|x86.Build.0 = Debug|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Release|Any CPU.ActiveCfg = Release|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Release|Mixed Platforms.Build.0 = Release|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Release|x86.ActiveCfg = Release|x86
+		{649F1B70-AAF1-4D7C-AEEF-328128F9212D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
