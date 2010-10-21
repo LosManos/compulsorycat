@@ -14,6 +14,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompulsoryCat", "Compulsory
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompulsoryCatExample", "CompulsoryCatExample\CompulsoryCatExample.csproj", "{649F1B70-AAF1-4D7C-AEEF-328128F9212D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sandcastle", "Sandcastle", "{0E8F1AD0-FDB2-402F-ADA9-DCD581AD48AF}"
+	ProjectSection(SolutionItems) = preProject
+		Sandcastle\CompulsoryCatSandcastle.shfbproj = Sandcastle\CompulsoryCatSandcastle.shfbproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Help", "Help", "{8324E598-C16A-44B5-9B41-232B4B675311}"
+	ProjectSection(SolutionItems) = preProject
+		Sandcastle\Help\Documentation.chm = Sandcastle\Help\Documentation.chm
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -64,5 +74,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8324E598-C16A-44B5-9B41-232B4B675311} = {0E8F1AD0-FDB2-402F-ADA9-DCD581AD48AF}
 	EndGlobalSection
 EndGlobal
