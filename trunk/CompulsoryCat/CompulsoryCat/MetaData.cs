@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Reflection;
 
 namespace CompulsoryCat
@@ -35,5 +36,20 @@ namespace CompulsoryCat
             return ReflectionUtility.GetCallingMethod();
         }
 
+        /// <summary>This method returns the MemberInfo of the property we are calling it from.
+        /// Use it like:
+        /// class MyClass{
+        ///     public string Title{
+        ///         Log( this.GetProperty().FormattedPropertyName );    //  Just call with this.GetProperty.
+        ///         return _title;
+        ///     }
+        /// }
+        /// </summary>
+        /// <param name="me"></param>
+        /// <returns></returns>
+        public static MemberInfo GetProperty( this object me)
+        {
+            return me.GetType().GetMember(ReflectionUtility.GetCallingMethod().Name).Single();
+        }
     }
 }

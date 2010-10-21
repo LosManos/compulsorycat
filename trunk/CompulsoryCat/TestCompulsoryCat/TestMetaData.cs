@@ -59,6 +59,16 @@ namespace TestCompulsoryCat
         }
 
         [TestMethod]
+        public void TestGetClassForStatic()
+        {
+            var cn = ReflectionUtility.GetClass().Name;
+            Assert.AreEqual(cn, "TestMetaData");
+
+            cn = MyStaticClass.MyType().Name;
+            Assert.AreEqual(cn, "MyStaticClass");
+        }
+
+        [TestMethod]
         public void TestGetMethod()
         {
             var m = this.GetMethod().Name;
@@ -69,18 +79,72 @@ namespace TestCompulsoryCat
         }
 
         [TestMethod]
-        public void TestGetClassForStatic()
+        public void TestGetPropertyExtension()
         {
-            var cn = ReflectionUtility.GetClass().Name;
-            Assert.AreEqual(cn, "TestMetaData");
+            var mi = (new MyClass()).MyProperty;
+            Assert.AreEqual("get_MyProperty", mi.Name);
+        }
 
-            cn = MyStaticClass.MyType().Name;
-            Assert.AreEqual(cn, "MyStaticClass");
+        [TestMethod]
+        public void TestGetPropertyMethod()
+        {
+            var mi = (new MyClass()).MyProperty;
+            Assert.AreEqual("get_MyProperty", mi.Name);
+        }
+
+        [TestMethod]
+        public void TestSetPropertyMethod()
+        {
+            var o = new MyClass();
+            o.MyPropertyNameSetter = "42";
+            Assert.AreEqual("MyPropertyNameSetter", o.MyPropertyNameSetterResult);
+        }
+
+        [TestMethod]
+        public void TestGetPropertyName()
+        {
+            var pn = ReflectionUtility.GetPropertyName((MyClass x) => x.MyPropertyName);
+            Assert.AreEqual("MyPropertyName", pn);
+
+            pn = (new MyClass()).MyPropertyName;
+            Assert.AreEqual("MyPropertyName", pn);
         }
 
         private System.Reflection.MethodBase ThisMethod()
         {
             return this.GetMethod();
+        }
+
+        private class MyClass
+        {
+            public static class StaticProp
+            {
+                //public static string MyStaticProperty
+                //{
+                //    get { return ReflectionUtility.GetPropertyName(s)
+                //}
+            }
+
+            public string MyPropertyName
+            {
+                get { return this.GetProperty().FormattedPropertyName(); }
+            }
+
+            public string MyPropertyNameSetter
+            {
+                set { 
+                //  We don't really care about setting a value.  Instead we 
+                //  set another member to this property's name.
+                    MyPropertyNameSetterResult = this.GetProperty().FormattedPropertyName();
+                }
+            }
+
+            public string MyPropertyNameSetterResult = "NOP";
+
+            public System.Reflection.MemberInfo MyProperty
+            {
+                get { return this.GetProperty(); }
+            }
         }
 
         private static class MyStaticClass

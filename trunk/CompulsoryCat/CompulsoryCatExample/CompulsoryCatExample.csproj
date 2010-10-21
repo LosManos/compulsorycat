@@ -50,7 +50,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CompulsoryCat\CompulsoryCat.csproj">
       <Project>{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}</Project>
-      <Name>Stat</Name>
+      <Name>CompulsoryCat</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -90,6 +90,23 @@ namespace CompulsoryCat
             return methodInfo.Name;
         }
 
+        /// <summary>This method returns the MemberInfo of the property.
+        /// Call it like: 
+        /// C#:  System.Reflection.MemberInfo = ReflectionUtility.GetProperty((MyClass x) => x.MyField);
+        /// VB:  G.ReflectionUtility.GetPropertyName(Function(x As BABWebRef.SokArendeAvanceradRad) x.Diarienummer)
+        /// See http://www.selfelected.com/catch-property-field-and-method-name-changes-compile-time-in-dotnet/
+        /// It doesn't work with static classes or static properties, at least I haven't found a way.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="TReturn"></typeparam>
+        /// <param name="expression"></param>
+        /// <returns></returns>
+        public static MemberInfo GetProperty<T, TReturn>(Expression<Func<T, TReturn>> expression)
+        {
+            MemberExpression body = (MemberExpression)expression.Body;
+            return body.Member;
+        }
+
         /// <summary>This method returns the property name.
         /// Call it like: 
         /// C#:  string fieldName = ReflectionUtility.GetPropertyName((MyClass x) => x.MyField);
