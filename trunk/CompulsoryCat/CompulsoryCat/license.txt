@@ -1,0 +1,2 @@
+﻿The files in this project are LGPL licensed.
+http://www.gnu.org/licenses/lgpl.html
