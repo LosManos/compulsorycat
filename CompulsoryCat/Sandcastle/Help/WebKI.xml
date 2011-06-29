@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="AsFlattened method" Url="html/b02ef720-8dc0-0c63-c8d3-d73f390ddf4c.htm" />
+  <HelpKINode Title="AssemblyName property" Url="html/966c4e6d-a5e5-8f57-d356-71207bacf535.htm" />
+  <HelpKINode Title="AssemblynameHelper class" Url="html/47b17c85-b052-0b66-5372-998954eee383.htm" />
+  <HelpKINode Title="AssemblynameHelper class" Url="html/a0d5c377-5a8a-aabc-322f-b9d9b1c18b13.htm" />
+  <HelpKINode Title="AssemblynameHelper class">
+    <HelpKINode Title="about AssemblynameHelper class" Url="html/a0d5c377-5a8a-aabc-322f-b9d9b1c18b13.htm" />
+    <HelpKINode Title="all members" Url="html/47b17c85-b052-0b66-5372-998954eee383.htm" />
+    <HelpKINode Title="methods" Url="html/60ba210c-5d63-8483-980b-509968aecd1c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblynameHelper.AssemblynameNode class" Url="html/bd04ac91-0e4e-012c-fced-cf0a4611d923.htm" />
+  <HelpKINode Title="AssemblynameHelper.AssemblynameNode class" Url="html/f9b6a11d-493a-e74f-6ed5-f725ee31750f.htm" />
+  <HelpKINode Title="AssemblynameHelper.AssemblynameNode class">
+    <HelpKINode Title="about AssemblynameHelper.AssemblynameNode class" Url="html/f9b6a11d-493a-e74f-6ed5-f725ee31750f.htm" />
+    <HelpKINode Title="all members" Url="html/bd04ac91-0e4e-012c-fced-cf0a4611d923.htm" />
+    <HelpKINode Title="constructor" Url="html/2ccede96-0cc6-78e1-8ca2-28039e5de9aa.htm" />
+    <HelpKINode Title="methods" Url="html/b1a0b9ff-e202-80ab-c088-3c53f6f165e2.htm" />
+    <HelpKINode Title="properties" Url="html/5b814db0-68b7-7b7d-c75e-2fdbfa29d4ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblynameHelper.AssemblynameNode.AsFlattened method" Url="html/b02ef720-8dc0-0c63-c8d3-d73f390ddf4c.htm" />
+  <HelpKINode Title="AssemblynameHelper.AssemblynameNode.AssemblyName property" Url="html/966c4e6d-a5e5-8f57-d356-71207bacf535.htm" />
+  <HelpKINode Title="AssemblynameHelper.AssemblynameNode.AssemblynameNode constructor" Url="html/2ccede96-0cc6-78e1-8ca2-28039e5de9aa.htm" />
+  <HelpKINode Title="AssemblynameHelper.AssemblynameNode.ReferencedAssemblyNames property" Url="html/961bb8da-9f84-6879-2aba-9f0b11bade1f.htm" />
+  <HelpKINode Title="AssemblynameHelper.Get method" Url="html/600643c4-974f-e2a0-6577-2261a19f826f.htm" />
+  <HelpKINode Title="AssemblynameList property" Url="html/489c643e-ddbe-9f09-5d99-8be646ac687c.htm" />
+  <HelpKINode Title="AssemblynameTreeAndList class" Url="html/074b208e-574a-39dd-13d4-85145afc63b6.htm" />
+  <HelpKINode Title="AssemblynameTreeAndList class" Url="html/6e361f1b-2392-c4ff-dae5-83204a395741.htm" />
+  <HelpKINode Title="AssemblynameTreeAndList class">
+    <HelpKINode Title="about AssemblynameTreeAndList class" Url="html/6e361f1b-2392-c4ff-dae5-83204a395741.htm" />
+    <HelpKINode Title="all members" Url="html/074b208e-574a-39dd-13d4-85145afc63b6.htm" />
+    <HelpKINode Title="methods" Url="html/cfa66af1-badb-ccdc-2bdc-2f012631be8f.htm" />
+    <HelpKINode Title="properties" Url="html/12cafa8e-b35b-3491-89fb-b55a5f9ffc48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblynameTreeAndList.AssemblynameList property" Url="html/489c643e-ddbe-9f09-5d99-8be646ac687c.htm" />
+  <HelpKINode Title="AssemblynameTreeAndList.Tree property" Url="html/a44db0d0-723b-98e8-650c-04c4b93c2739.htm" />
+  <HelpKINode Title="CompulsoryCat namespace" Url="html/95e489ec-6d9a-2b42-da8f-0438c32b28a7.htm" />
+  <HelpKINode Title="CompulsoryCat.Assemblyname namespace" Url="html/f3489d27-f6db-59f5-400b-fa13be0cd641.htm" />
+  <HelpKINode Title="CompulsoryCat.Assemblyname.AssemblynameHelper class" Url="html/47b17c85-b052-0b66-5372-998954eee383.htm" />
+  <HelpKINode Title="CompulsoryCat.Assemblyname.AssemblynameHelper class" Url="html/a0d5c377-5a8a-aabc-322f-b9d9b1c18b13.htm" />
+  <HelpKINode Title="CompulsoryCat.Assemblyname.AssemblynameHelper.AssemblynameNode class" Url="html/bd04ac91-0e4e-012c-fced-cf0a4611d923.htm" />
+  <HelpKINode Title="CompulsoryCat.Assemblyname.AssemblynameHelper.AssemblynameNode class" Url="html/f9b6a11d-493a-e74f-6ed5-f725ee31750f.htm" />
+  <HelpKINode Title="CompulsoryCat.Assemblyname.AssemblynameTreeAndList class" Url="html/074b208e-574a-39dd-13d4-85145afc63b6.htm" />
+  <HelpKINode Title="CompulsoryCat.Assemblyname.AssemblynameTreeAndList class" Url="html/6e361f1b-2392-c4ff-dae5-83204a395741.htm" />
+  <HelpKINode Title="CompulsoryCat.MemberInfoExtension class" Url="html/356f5c10-d89c-336a-61d9-b9dbaee102f6.htm" />
+  <HelpKINode Title="CompulsoryCat.MemberInfoExtension class" Url="html/fa13a793-1605-91b8-9362-d80a043f4094.htm" />
+  <HelpKINode Title="CompulsoryCat.MetaData class" Url="html/7a9f6339-2f00-ab1e-178d-f05eb7b56f2f.htm" />
+  <HelpKINode Title="CompulsoryCat.MetaData class" Url="html/f779a256-d2f9-e1d9-1b2c-3760e3182ccf.htm" />
+  <HelpKINode Title="CompulsoryCat.ReflectionUtility class" Url="html/569371ee-e967-7be7-4401-533579a456fe.htm" />
+  <HelpKINode Title="CompulsoryCat.ReflectionUtility class" Url="html/5dd51f6f-03e0-4d1f-75a6-ac58b6b54bc6.htm" />
+  <HelpKINode Title="FormattedPropertyName method" Url="html/f93c7707-38ab-ca2d-6575-9ba5b7526047.htm" />
+  <HelpKINode Title="Get method" Url="html/600643c4-974f-e2a0-6577-2261a19f826f.htm" />
+  <HelpKINode Title="GetCallingMethod method" Url="html/7d5c4ae0-3e29-11be-bbee-b77a0593c057.htm" />
+  <HelpKINode Title="GetCallingMethodFullNameReturnParametertypes method" Url="html/431f30ef-19fa-b3dc-8855-0c55b2e8ef08.htm" />
+  <HelpKINode Title="GetClass method" Url="html/ff529f59-f0fc-255d-9abd-f0a6fae7d1b5.htm" />
+  <HelpKINode Title="GetMethod method" Url="html/80c41a42-42a6-40d1-3fec-6aaddf11c907.htm" />
+  <HelpKINode Title="GetMethodName(Of T, TReturn) method" Url="html/a8611d2b-9067-9c5c-4401-e8da4d5a53d3.htm" />
+  <HelpKINode Title="GetMethodName&lt;T, TReturn&gt; method" Url="html/a8611d2b-9067-9c5c-4401-e8da4d5a53d3.htm" />
+  <HelpKINode Title="GetProperty(Of T, TReturn) method" Url="html/8fcecf4a-77a7-a758-ee13-bbedc15f6a0c.htm" />
+  <HelpKINode Title="GetProperty&lt;T, TReturn&gt; method" Url="html/8fcecf4a-77a7-a758-ee13-bbedc15f6a0c.htm" />
+  <HelpKINode Title="GetPropertyName(Of T, TReturn) method" Url="html/bb161416-163e-5e1a-428e-48666543d33c.htm" />
+  <HelpKINode Title="GetPropertyName&lt;T, TReturn&gt; method" Url="html/bb161416-163e-5e1a-428e-48666543d33c.htm" />
+  <HelpKINode Title="MemberInfoExtension class" Url="html/356f5c10-d89c-336a-61d9-b9dbaee102f6.htm" />
+  <HelpKINode Title="MemberInfoExtension class" Url="html/fa13a793-1605-91b8-9362-d80a043f4094.htm" />
+  <HelpKINode Title="MemberInfoExtension class">
+    <HelpKINode Title="about MemberInfoExtension class" Url="html/356f5c10-d89c-336a-61d9-b9dbaee102f6.htm" />
+    <HelpKINode Title="all members" Url="html/fa13a793-1605-91b8-9362-d80a043f4094.htm" />
+    <HelpKINode Title="methods" Url="html/4b809cc4-f9fe-e6ff-2448-e6fbad1f483e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemberInfoExtension.FormattedPropertyName method" Url="html/f93c7707-38ab-ca2d-6575-9ba5b7526047.htm" />
+  <HelpKINode Title="MetaData class" Url="html/7a9f6339-2f00-ab1e-178d-f05eb7b56f2f.htm" />
+  <HelpKINode Title="MetaData class" Url="html/f779a256-d2f9-e1d9-1b2c-3760e3182ccf.htm" />
+  <HelpKINode Title="MetaData class">
+    <HelpKINode Title="about MetaData class" Url="html/f779a256-d2f9-e1d9-1b2c-3760e3182ccf.htm" />
+    <HelpKINode Title="all members" Url="html/7a9f6339-2f00-ab1e-178d-f05eb7b56f2f.htm" />
+    <HelpKINode Title="methods" Url="html/8b0de7a2-e465-e08f-0d4c-902793f8d0a2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MethodFullName method" Url="html/ac0e8df4-d485-02c7-b4d6-4ee06de4d353.htm" />
+  <HelpKINode Title="MethodFullNameReturn method" Url="html/59d354b4-e7c3-b144-6bad-21030f21ea2f.htm" />
+  <HelpKINode Title="MethodFullNameReturnParametertypes method" Url="html/275bd23e-bff9-4a04-18c0-e2b31ce98857.htm" />
+  <HelpKINode Title="ReferencedAssemblyNames property" Url="html/961bb8da-9f84-6879-2aba-9f0b11bade1f.htm" />
+  <HelpKINode Title="ReflectionUtility class" Url="html/569371ee-e967-7be7-4401-533579a456fe.htm" />
+  <HelpKINode Title="ReflectionUtility class" Url="html/5dd51f6f-03e0-4d1f-75a6-ac58b6b54bc6.htm" />
+  <HelpKINode Title="ReflectionUtility class">
+    <HelpKINode Title="about ReflectionUtility class" Url="html/5dd51f6f-03e0-4d1f-75a6-ac58b6b54bc6.htm" />
+    <HelpKINode Title="all members" Url="html/569371ee-e967-7be7-4401-533579a456fe.htm" />
+    <HelpKINode Title="constructor" Url="html/99f4ecf3-a077-b873-640f-71a17511fd82.htm" />
+    <HelpKINode Title="methods" Url="html/fcdb801a-757f-5f88-600e-27387bc1bc6f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReflectionUtility.GetCallingMethod method" Url="html/7d5c4ae0-3e29-11be-bbee-b77a0593c057.htm" />
+  <HelpKINode Title="ReflectionUtility.GetCallingMethodFullNameReturnParametertypes method" Url="html/431f30ef-19fa-b3dc-8855-0c55b2e8ef08.htm" />
+  <HelpKINode Title="ReflectionUtility.GetClass method" Url="html/ff529f59-f0fc-255d-9abd-f0a6fae7d1b5.htm" />
+  <HelpKINode Title="ReflectionUtility.GetMethod method" Url="html/80c41a42-42a6-40d1-3fec-6aaddf11c907.htm" />
+  <HelpKINode Title="ReflectionUtility.GetMethodName(Of T, TReturn) method" Url="html/a8611d2b-9067-9c5c-4401-e8da4d5a53d3.htm" />
+  <HelpKINode Title="ReflectionUtility.GetMethodName&lt;T, TReturn&gt; method" Url="html/a8611d2b-9067-9c5c-4401-e8da4d5a53d3.htm" />
+  <HelpKINode Title="ReflectionUtility.GetProperty(Of T, TReturn) method" Url="html/8fcecf4a-77a7-a758-ee13-bbedc15f6a0c.htm" />
+  <HelpKINode Title="ReflectionUtility.GetProperty&lt;T, TReturn&gt; method" Url="html/8fcecf4a-77a7-a758-ee13-bbedc15f6a0c.htm" />
+  <HelpKINode Title="ReflectionUtility.GetPropertyName(Of T, TReturn) method" Url="html/bb161416-163e-5e1a-428e-48666543d33c.htm" />
+  <HelpKINode Title="ReflectionUtility.GetPropertyName&lt;T, TReturn&gt; method" Url="html/bb161416-163e-5e1a-428e-48666543d33c.htm" />
+  <HelpKINode Title="ReflectionUtility.MethodFullName method" Url="html/ac0e8df4-d485-02c7-b4d6-4ee06de4d353.htm" />
+  <HelpKINode Title="ReflectionUtility.MethodFullNameReturn method" Url="html/59d354b4-e7c3-b144-6bad-21030f21ea2f.htm" />
+  <HelpKINode Title="ReflectionUtility.MethodFullNameReturnParametertypes method" Url="html/275bd23e-bff9-4a04-18c0-e2b31ce98857.htm" />
+  <HelpKINode Title="ReflectionUtility.ReflectionUtility constructor" Url="html/99f4ecf3-a077-b873-640f-71a17511fd82.htm" />
+  <HelpKINode Title="Tree property" Url="html/a44db0d0-723b-98e8-650c-04c4b93c2739.htm" />
+</HelpKI>

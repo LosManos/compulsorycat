@@ -41,14 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assemblyname\AssemblynameHelper.AssemblynameNode.cs" />
+    <Compile Include="Assemblyname\AssemblynameHelper.cs" />
+    <Compile Include="Assemblyname\AssemblynameTreeAndList.cs" />
     <Compile Include="MemberInfoExtension.cs" />
     <Compile Include="ReflectionUtility.cs" />
     <Compile Include="MetaData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assemblyname\readme.AssemblynameTree.txt" />
+    <Content Include="Beta\readme.txt" />
     <Content Include="license.txt" />
+    <Content Include="readme.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
