@@ -50,6 +50,10 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblynameHelperTest.cs" />
+    <Compile Include="AssemblynameHelper_AssemblynameNodeTest.cs" />
+    <Compile Include="AssemblynameTreeAndListTest.cs" />
+    <Compile Include="DictionaryExtensionsTest.cs" />
     <Compile Include="MemberInfoExtensionTest.cs" />
     <Compile Include="TestReflectionUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +64,9 @@
       <Project>{CDB9A9B9-3435-4EC0-86B8-7053E8639B20}</Project>
       <Name>CompulsoryCat</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Test References\CompulsoryCat.accessor" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -4,16 +4,18 @@ using System.Reflection;
 
 namespace CompulsoryCat
 {
+    /// <summary>This class contains meta data functionality.
+    /// </summary>
     public static class MetaData
-{
-       /// <summary>This method returns data about the class.
-       /// Just do a 
-       ///  using MetaData
-       /// and you have it in the object.
-       /// </summary>
-       /// <param name="me"></param>
-       /// <returns></returns>
-        public static Type GetClass( this object me )
+    {
+        /// <summary>This method returns data about the class.
+        /// Just do a 
+        ///  using MetaData
+        /// and you have it in the object.
+        /// </summary>
+        /// <param name="me"></param>
+        /// <returns></returns>
+        public static Type GetClass(this object me)
         {
             return me.GetType();
         }
@@ -47,7 +49,7 @@ namespace CompulsoryCat
         /// </summary>
         /// <param name="me"></param>
         /// <returns></returns>
-        public static MemberInfo GetProperty( this object me)
+        public static MemberInfo GetProperty(this object me)
         {
             return me.GetType().GetMember(ReflectionUtility.GetCallingMethod().Name).Single();
         }

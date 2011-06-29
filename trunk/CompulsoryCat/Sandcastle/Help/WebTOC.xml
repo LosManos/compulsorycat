@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="805aa769-dc9b-4e57-81b6-8c0bde702c80" Title="CompulsoryCat Namespace" Url="html/95e489ec-6d9a-2b42-da8f-0438c32b28a7.htm">
+    <HelpTOCNode Id="27f5d61f-eb4c-4483-b1fc-8d6227ef0253" Title="MemberInfoExtension Class" Url="html/356f5c10-d89c-336a-61d9-b9dbaee102f6.htm">
+      <HelpTOCNode Title="MemberInfoExtension Members" Url="html/fa13a793-1605-91b8-9362-d80a043f4094.htm" />
+      <HelpTOCNode Id="b19d493e-d2a9-40bb-a459-8180acd455e9" Title="MemberInfoExtension Methods" Url="html/4b809cc4-f9fe-e6ff-2448-e6fbad1f483e.htm">
+        <HelpTOCNode Title="FormattedPropertyName Method " Url="html/f93c7707-38ab-ca2d-6575-9ba5b7526047.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8b0b420d-8cf3-44d6-8969-0ff30553672d" Title="MetaData Class" Url="html/f779a256-d2f9-e1d9-1b2c-3760e3182ccf.htm">
+      <HelpTOCNode Title="MetaData Members" Url="html/7a9f6339-2f00-ab1e-178d-f05eb7b56f2f.htm" />
+      <HelpTOCNode Title="MetaData Methods" Url="html/8b0de7a2-e465-e08f-0d4c-902793f8d0a2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e837b219-751d-4bb3-b156-50a38661b4b1" Title="ReflectionUtility Class" Url="html/5dd51f6f-03e0-4d1f-75a6-ac58b6b54bc6.htm">
+      <HelpTOCNode Title="ReflectionUtility Members" Url="html/569371ee-e967-7be7-4401-533579a456fe.htm" />
+      <HelpTOCNode Title="ReflectionUtility Constructor " Url="html/99f4ecf3-a077-b873-640f-71a17511fd82.htm" />
+      <HelpTOCNode Id="371ba4d1-d9f9-434f-aeda-ee073c8d6649" Title="ReflectionUtility Methods" Url="html/fcdb801a-757f-5f88-600e-27387bc1bc6f.htm">
+        <HelpTOCNode Title="GetCallingMethod Method " Url="html/7d5c4ae0-3e29-11be-bbee-b77a0593c057.htm" />
+        <HelpTOCNode Title="GetCallingMethodFullNameReturnParametertypes Method " Url="html/431f30ef-19fa-b3dc-8855-0c55b2e8ef08.htm" />
+        <HelpTOCNode Id="705707a4-612a-438a-8a02-7389ffeeb333" Title="GetClass Method " Url="html/ff529f59-f0fc-255d-9abd-f0a6fae7d1b5.htm">
+          <HelpTOCNode Title="GetClass Method " Url="html/894b0f92-447e-209d-8b91-b92abdcc03ce.htm" />
+          <HelpTOCNode Title="GetClass Method (Object)" Url="html/b309e801-5cd1-6449-888e-991b2f3a00ce.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetMethod Method " Url="html/80c41a42-42a6-40d1-3fec-6aaddf11c907.htm" />
+        <HelpTOCNode Title="GetMethodName(T, TReturn) Method " Url="html/a8611d2b-9067-9c5c-4401-e8da4d5a53d3.htm" />
+        <HelpTOCNode Title="GetProperty(T, TReturn) Method " Url="html/8fcecf4a-77a7-a758-ee13-bbedc15f6a0c.htm" />
+        <HelpTOCNode Title="GetPropertyName(T, TReturn) Method " Url="html/bb161416-163e-5e1a-428e-48666543d33c.htm" />
+        <HelpTOCNode Title="MethodFullName Method " Url="html/ac0e8df4-d485-02c7-b4d6-4ee06de4d353.htm" />
+        <HelpTOCNode Title="MethodFullNameReturn Method " Url="html/59d354b4-e7c3-b144-6bad-21030f21ea2f.htm" />
+        <HelpTOCNode Title="MethodFullNameReturnParametertypes Method " Url="html/275bd23e-bff9-4a04-18c0-e2b31ce98857.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="361c5dcc-09eb-4653-a43c-9fff3e200bd5" Title="CompulsoryCat.Assemblyname Namespace" Url="html/f3489d27-f6db-59f5-400b-fa13be0cd641.htm">
+    <HelpTOCNode Id="d9cc1382-ea73-47f9-bd2c-8b6d2bf8b8ae" Title="AssemblynameHelper Class" Url="html/a0d5c377-5a8a-aabc-322f-b9d9b1c18b13.htm">
+      <HelpTOCNode Title="AssemblynameHelper Members" Url="html/47b17c85-b052-0b66-5372-998954eee383.htm" />
+      <HelpTOCNode Id="c9e89d53-2cdb-4df3-84d4-2fa57a69f9f2" Title="AssemblynameHelper Methods" Url="html/60ba210c-5d63-8483-980b-509968aecd1c.htm">
+        <HelpTOCNode Id="7bd6c55d-418f-4bed-a652-5398fbb2a862" Title="Get Method " Url="html/600643c4-974f-e2a0-6577-2261a19f826f.htm">
+          <HelpTOCNode Title="Get Method " Url="html/85de4641-d70e-6092-eb3e-45e2181e6069.htm" />
+          <HelpTOCNode Title="Get Method (Assembly)" Url="html/3a9c3b05-efd1-e2cc-f69a-5d3fdb93e351.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e29ac9b0-a493-4940-8ed4-10fac5885944" Title="AssemblynameHelper.AssemblynameNode Class" Url="html/f9b6a11d-493a-e74f-6ed5-f725ee31750f.htm">
+      <HelpTOCNode Title="AssemblynameHelper.AssemblynameNode Members" Url="html/bd04ac91-0e4e-012c-fced-cf0a4611d923.htm" />
+      <HelpTOCNode Title="AssemblynameHelper.AssemblynameNode Constructor " Url="html/2ccede96-0cc6-78e1-8ca2-28039e5de9aa.htm" />
+      <HelpTOCNode Id="f31393c7-5a04-44b5-8611-60ed607676b0" Title="AssemblynameHelper.AssemblynameNode Methods" Url="html/b1a0b9ff-e202-80ab-c088-3c53f6f165e2.htm">
+        <HelpTOCNode Title="AsFlattened Method " Url="html/b02ef720-8dc0-0c63-c8d3-d73f390ddf4c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="879d3623-5ed4-4cf0-ac5d-66414ad43909" Title="AssemblynameHelper.AssemblynameNode Properties" Url="html/5b814db0-68b7-7b7d-c75e-2fdbfa29d4ee.htm">
+        <HelpTOCNode Title="AssemblyName Property " Url="html/966c4e6d-a5e5-8f57-d356-71207bacf535.htm" />
+        <HelpTOCNode Title="ReferencedAssemblyNames Property " Url="html/961bb8da-9f84-6879-2aba-9f0b11bade1f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b84e2c36-4ea6-42fb-a640-ef10663b92f3" Title="AssemblynameTreeAndList Class" Url="html/6e361f1b-2392-c4ff-dae5-83204a395741.htm">
+      <HelpTOCNode Title="AssemblynameTreeAndList Members" Url="html/074b208e-574a-39dd-13d4-85145afc63b6.htm" />
+      <HelpTOCNode Title="AssemblynameTreeAndList Methods" Url="html/cfa66af1-badb-ccdc-2bdc-2f012631be8f.htm" />
+      <HelpTOCNode Id="774d8a06-a59b-413b-afab-42723fe86ebc" Title="AssemblynameTreeAndList Properties" Url="html/12cafa8e-b35b-3491-89fb-b55a5f9ffc48.htm">
+        <HelpTOCNode Title="AssemblynameList Property " Url="html/489c643e-ddbe-9f09-5d99-8be646ac687c.htm" />
+        <HelpTOCNode Title="Tree Property " Url="html/a44db0d0-723b-98e8-650c-04c4b93c2739.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
