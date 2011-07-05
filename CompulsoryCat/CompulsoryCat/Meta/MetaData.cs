@@ -1,8 +1,15 @@
-﻿using System;
+﻿//Anon, to sudden silence won,
+// In fancy they pursue
+// The dream-child moving through a land
+// Of wonders wild and new,
+// In friendly chat with bird or beast -
+// And half believe it true.
+
+using System;
 using System.Linq;
 using System.Reflection;
 
-namespace CompulsoryCat
+namespace CompulsoryCat.Meta
 {
     /// <summary>This class contains meta data functionality.
     /// </summary>

@@ -1,4 +1,12 @@
-﻿using System;
+﻿//Imperious Prima flashes forth
+// Her edict 'to begin it' -
+// In gentler tone Secunda hopes
+// 'There will be nonsense in it!' -
+// While Tertia interrupts the tale
+// Not more than once a minute.
+
+using System;
+using CompulsoryCat.Meta;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CompulsoryCat;
 
@@ -52,7 +60,7 @@ namespace TestCompulsoryCat
         public void TestGetClass()
         {
             var o = (new object()).GetClass().Name;
-            Assert.AreEqual( o, "Object");
+            Assert.AreEqual(o, "Object");
 
             var s = "".GetClass().Name;
             Assert.AreEqual(s, "String");
@@ -132,9 +140,10 @@ namespace TestCompulsoryCat
 
             public string MyPropertyNameSetter
             {
-                set { 
-                //  We don't really care about setting a value.  Instead we 
-                //  set another member to this property's name.
+                set
+                {
+                    //  We don't really care about setting a value.  Instead we 
+                    //  set another member to this property's name.
                     MyPropertyNameSetterResult = this.GetProperty().FormattedPropertyName();
                 }
             }

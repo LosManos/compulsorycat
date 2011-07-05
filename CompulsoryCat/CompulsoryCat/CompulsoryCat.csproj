@@ -44,10 +44,11 @@
     <Compile Include="Assemblyname\AssemblynameHelper.AssemblynameNode.cs" />
     <Compile Include="Assemblyname\AssemblynameHelper.cs" />
     <Compile Include="Assemblyname\AssemblynameTreeAndList.cs" />
-    <Compile Include="MemberInfoExtension.cs" />
-    <Compile Include="ReflectionUtility.cs" />
-    <Compile Include="MetaData.cs" />
+    <Compile Include="Meta\MemberInfoExtension.cs" />
+    <Compile Include="Meta\ReflectionUtility.cs" />
+    <Compile Include="Meta\MetaData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.shared.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assemblyname\readme.AssemblynameTree.txt" />
