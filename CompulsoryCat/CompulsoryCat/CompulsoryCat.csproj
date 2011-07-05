@@ -34,6 +34,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,12 +51,14 @@
     <Compile Include="Meta\MetaData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.shared.cs" />
+    <Compile Include="Shell\FileIcon.cs" />
+    <Compile Include="Shell\Shortcut.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assemblyname\readme.AssemblynameTree.txt" />
     <Content Include="Beta\readme.txt" />
     <Content Include="license.txt" />
-    <Content Include="readme.txt" />
+    <Content Include="readme.CompulsoryCat.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
