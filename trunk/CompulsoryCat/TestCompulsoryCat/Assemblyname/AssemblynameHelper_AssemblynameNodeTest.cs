@@ -1,13 +1,15 @@
-﻿using CompulsoryCat.Assemblyname;
+﻿//The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, 
+//so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.
+
+using CompulsoryCat.Assemblyname;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Reflection;
 using System.Collections.Generic;
 
 namespace TestCompulsoryCat
 {
-    
-    
+
+
     /// <summary>
     ///This is a test class for AssemblynameHelper_AssemblynameNodeTest and is intended
     ///to contain all AssemblynameHelper_AssemblynameNodeTest Unit Tests

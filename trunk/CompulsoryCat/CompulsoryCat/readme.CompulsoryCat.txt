@@ -15,6 +15,10 @@ Added help files to SVN.
 Added quotes to the files and a readme at solution level.
 Moved MetaData functionaliy into its own namespace.
 Updated Assemblyinfo to have a shared part.  It is now easier to update the version for all projects at once.
+1.4
+Added the Shell namespace.
+Tidied the test.
+Added Shell.Shortcut and tests for the same.
 
 Known Issues:
 See http://code.google.com/p/compulsorycat/issues/list

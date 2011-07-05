@@ -8,7 +8,6 @@
 using System;
 using CompulsoryCat.Meta;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CompulsoryCat;
 
 namespace TestCompulsoryCat
 {
