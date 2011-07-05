@@ -1,11 +1,16 @@
-﻿using CompulsoryCat;
+﻿//Ah, cruel Three! In such an hour,
+// Beneath such dreamy weather,
+// To beg a tale of breath too weak
+// To stir the tiniest feather!
+// Yet what can one poor voice avail
+// Against three tongues together?
+
+using CompulsoryCat.Meta;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Reflection;
 
 namespace TestCompulsoryCat
 {
-    
+
     /// <summary>This is a test class for MemberInfoExtensionTest and is intended
     ///to contain all MemberInfoExtensionTest Unit Tests
     ///</summary>
@@ -66,7 +71,7 @@ namespace TestCompulsoryCat
         [TestMethod()]
         public void FormattedPropertyNameTest()
         {
-            var p = typeof (MyClass).GetProperty("MyProperty");
+            var p = typeof(MyClass).GetProperty("MyProperty");
             var n = p.FormattedPropertyName();
             Assert.AreEqual("MyProperty", n);
         }

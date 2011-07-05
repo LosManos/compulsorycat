@@ -1,9 +1,16 @@
-﻿using System;
+﻿//And ever, as the story drained
+// The wells of fancy dry,
+// And faintly strove that weary one
+// To put the subject by,
+// "The rest next time -" "It is next time!"
+// The happy voices cry.
+
+using System;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace CompulsoryCat
+namespace CompulsoryCat.Meta
 {
     /// <summary>This is a utility class for reflection.
     /// See http://www.selfelected.com/catch-property-field-and-method-name-changes-compile-time-in-dotnet/
@@ -25,7 +32,7 @@ namespace CompulsoryCat
         /// Call it like:
         /// C#: string className = ReflectionUtility.GetClass( myObject ).Name;
         /// </summary>
-        public static Type GetClass( object o)
+        public static Type GetClass(object o)
         {
             return o.GetType();
         }
@@ -84,10 +91,12 @@ namespace CompulsoryCat
         public static string GetMethodName<T, TReturn>(Expression<Func<T, TReturn>> expression)
         {
             var body = expression.Body as UnaryExpression;
+            // ReSharper disable PossibleNullReferenceException
             var operand = body.Operand as MethodCallExpression;
             var argument = operand.Arguments[2] as ConstantExpression;
-            var methodInfo = argument.Value as System.Reflection.MethodInfo;
+            var methodInfo = argument.Value as MethodInfo;
             return methodInfo.Name;
+            // ReSharper restore PossibleNullReferenceException
         }
 
         /// <summary>This method returns the MemberInfo of the property.
@@ -103,7 +112,9 @@ namespace CompulsoryCat
         /// <returns></returns>
         public static MemberInfo GetProperty<T, TReturn>(Expression<Func<T, TReturn>> expression)
         {
+// ReSharper disable SuggestUseVarKeywordEvident
             MemberExpression body = (MemberExpression)expression.Body;
+// ReSharper restore SuggestUseVarKeywordEvident
             return body.Member;
         }
 
@@ -120,7 +131,9 @@ namespace CompulsoryCat
         /// <returns></returns>
         public static string GetPropertyName<T, TReturn>(Expression<Func<T, TReturn>> expression)
         {
+// ReSharper disable SuggestUseVarKeywordEvident
             MemberExpression body = (MemberExpression)expression.Body;
+// ReSharper restore SuggestUseVarKeywordEvident
             return body.Member.Name;
         }
 
@@ -129,9 +142,9 @@ namespace CompulsoryCat
         /// </summary>
         /// <param name="method"></param>
         /// <returns></returns>
-        public static string MethodFullName(System.Reflection.MethodBase method)
+        public static string MethodFullName(MethodBase method)
         {
-            return string.Format( "{0}.{1}", method.DeclaringType.FullName, method.Name);
+            return string.Format("{0}.{1}", method.DeclaringType.FullName, method.Name);
         }
 
         /// <summary>This method returns the full name of a method and its return type.
@@ -139,9 +152,9 @@ namespace CompulsoryCat
         /// </summary>
         /// <param name="method"></param>
         /// <returns></returns>
-        public static string MethodFullNameReturn(System.Reflection.MethodBase method)
+        public static string MethodFullNameReturn(MethodBase method)
         {
-            return string.Format("{0} {1}.{2}", ((System.Reflection.MethodInfo)method).ReturnType, method.DeclaringType.FullName, method.Name);
+            return string.Format("{0} {1}.{2}", ((MethodInfo)method).ReturnType, method.DeclaringType.FullName, method.Name);
         }
 
         /// <summary>This method returns the full name of a method and its return type and its parameters.
@@ -149,10 +162,10 @@ namespace CompulsoryCat
         /// </summary>
         /// <param name="method"></param>
         /// <returns></returns>
-        public static string MethodFullNameReturnParametertypes(System.Reflection.MethodBase method)
+        public static string MethodFullNameReturnParametertypes(MethodBase method)
         {
             return string.Format("{0} {1}.{2} ({3})",
-                ((System.Reflection.MethodInfo)method).ReturnType,
+                ((MethodInfo)method).ReturnType,
                 method.DeclaringType.FullName,
                 method.Name,
                 string.Join(",", method.GetParameters().Select(p => p.ParameterType.ToString() + " " + p.Name).ToArray())   // () or (int) or (int,string) etc.

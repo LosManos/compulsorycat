@@ -1,6 +1,10 @@
-﻿using System;
+﻿//Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: 
+//once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 
+//`and what is the use of a book,' thought Alice `without pictures or conversation?'
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CompulsoryCat;
+using CompulsoryCat.Meta;
 
 namespace TestCompulsoryCat
 {
@@ -77,7 +81,7 @@ namespace TestCompulsoryCat
         {
             var o = new MyClass();
             var mn = o.GetCallingMethodNameMethod().Name;
-            Assert.AreEqual( mn, "TestGetCallingMethod");
+            Assert.AreEqual(mn, "TestGetCallingMethod");
 
             mn = MyStaticClass.GetCallingMethodNameMethod().Name;
             Assert.AreEqual(mn, "TestGetCallingMethod");
@@ -104,9 +108,9 @@ namespace TestCompulsoryCat
         [TestMethod]
         public void TestGetMethodNameReturnStringLambda()
         {
-// ReSharper disable RedundantLambdaParameterType
-            var mn = ReflectionUtility.GetMethodName<MyClass,Func<string>>((MyClass x) => x.GetMethodNameReturnString2);
-// ReSharper restore RedundantLambdaParameterType
+            // ReSharper disable RedundantLambdaParameterType
+            var mn = ReflectionUtility.GetMethodName<MyClass, Func<string>>((MyClass x) => x.GetMethodNameReturnString2);
+            // ReSharper restore RedundantLambdaParameterType
             Assert.AreEqual(mn, "GetMethodNameReturnString2");
 
             mn = ReflectionUtility.GetMethodName<MyClass, Func<string>>(x => x.GetMethodNameReturnString2); //  Without type specification.
@@ -152,15 +156,15 @@ namespace TestCompulsoryCat
 
         private class MyClass
         {
-// ReSharper disable UnusedAutoPropertyAccessor.Local
+            // ReSharper disable UnusedAutoPropertyAccessor.Local
             internal int MyProp { get; set; }
-// ReSharper restore UnusedAutoPropertyAccessor.Local
-// ReSharper disable MemberCanBeMadeStatic.Local
+            // ReSharper restore UnusedAutoPropertyAccessor.Local
+            // ReSharper disable MemberCanBeMadeStatic.Local
             internal Type GetClassMethod()
             {
                 return ReflectionUtility.GetClass();
             }
-            internal System.Reflection.MethodBase  GetCallingMethodNameMethod()
+            internal System.Reflection.MethodBase GetCallingMethodNameMethod()
             {
                 return ReflectionUtility.GetCallingMethod();
             }
@@ -184,7 +188,7 @@ namespace TestCompulsoryCat
             {
                 return ReflectionUtility.MethodFullNameReturnParametertypes(ReflectionUtility.GetCallingMethod());
             }
-// ReSharper restore MemberCanBeMadeStatic.Local
+            // ReSharper restore MemberCanBeMadeStatic.Local
         }
 
         private static class MyStaticClass

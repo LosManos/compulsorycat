@@ -50,6 +50,9 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CompulsoryCat\Properties\AssemblyInfo.shared.cs">
+      <Link>Properties\AssemblyInfo.shared.cs</Link>
+    </Compile>
     <Compile Include="AssemblynameHelperTest.cs" />
     <Compile Include="AssemblynameHelper_AssemblynameNodeTest.cs" />
     <Compile Include="AssemblynameTreeAndListTest.cs" />

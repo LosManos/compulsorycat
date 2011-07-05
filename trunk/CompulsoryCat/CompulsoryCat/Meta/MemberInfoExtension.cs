@@ -1,7 +1,13 @@
-﻿using System;
+﻿//ALL in the golden afternoon
+// Full leisurely we glide;
+// For both our oars, with little skill,
+// By little arms are plied,
+// While little hands make vain pretence
+// Our wanderings to guide.
+
 using System.Reflection;
 
-namespace CompulsoryCat
+namespace CompulsoryCat.Meta
 {
     /// <summary>This class contains extension methods for the MemberInfo class.
     /// </summary>
@@ -13,7 +19,7 @@ namespace CompulsoryCat
         /// </summary>
         /// <param name="me"></param>
         /// <returns></returns>
-        public static string FormattedPropertyName( this MemberInfo me)
+        public static string FormattedPropertyName(this MemberInfo me)
         {
             if (me.Name.StartsWith("get_"))
             {
