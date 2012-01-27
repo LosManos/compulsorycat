@@ -1,12 +1,5 @@
-﻿//Thus grew the tale of Wonderland:
-// Thus slowly, one by one,
-// Its quaint events were hammered out -
-// And now the tale is done,
-// And home we steer, a merry crew,
-// Beneath the setting sun.
-
-using System;
-using CompulsoryCat.Meta;
+﻿using System;
+using CompulsoryCat;
 
 namespace CompulsoryCatExample
 {
@@ -25,8 +18,8 @@ namespace CompulsoryCatExample
             MyStaticClass.MyStaticMethod();
 
             Console.WriteLine();
-            Console.WriteLine("The ReflectionUtility class contains more good stuff.");
-            Console.WriteLine("But there are also big holes in it.  There are problems with getting data from a static method or class" +
+            Console.WriteLine( "The ReflectionUtility class contains more good stuff.");
+            Console.WriteLine( "But there are also big holes in it.  There are problems with getting data from a static method or class" +
                 " outside it.");
 
             Console.WriteLine();
