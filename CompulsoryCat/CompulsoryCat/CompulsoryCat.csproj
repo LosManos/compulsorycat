@@ -44,8 +44,8 @@
     <Compile Include="Assemblyname\AssemblynameHelper.AssemblynameNode.cs" />
     <Compile Include="Assemblyname\AssemblynameHelper.cs" />
     <Compile Include="Assemblyname\AssemblynameTreeAndList.cs" />
-    <Compile Include="Beta\ListExtension.cs" />
-    <Compile Include="Beta\StringExtension.cs" />
+    <Compile Include="ListExtension.cs" />
+    <Compile Include="StringExtension.cs" />
     <Compile Include="MemberInfoExtension.cs" />
     <Compile Include="ReflectionUtility.cs" />
     <Compile Include="MetaData.cs" />
