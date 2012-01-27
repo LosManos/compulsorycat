@@ -1,11 +1,4 @@
-﻿//Alice! a childish story take,
-// And with gentle hand
-// Lay it were Childhood's dreams are twined
-// In Memory's mystic band,
-// Like pilgrim's wither'd wreath of flowers
-// Pluck'd in a far-off land.
-
-using CompulsoryCat.Meta;
+﻿using CompulsoryCat;
 using System;
 
 namespace CompulsoryCatExample
@@ -14,8 +7,8 @@ namespace CompulsoryCatExample
     {
         internal void MyMethod()
         {
-            Console.WriteLine(
-                string.Format(
+            Console.WriteLine( 
+                string.Format( 
                     "We can get the class [{0}] and the method [{1}] right in a the method through extension methods." +
                     "  Just add a using statement in the file.", this.GetClass().Name, this.GetMethod().Name));
         }
