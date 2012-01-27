@@ -1,7 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CompulsoryCat;
-using CompulsoryCat.Beta;
 
 namespace TestCompulsoryCat
 {

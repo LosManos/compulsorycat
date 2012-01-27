@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CompulsoryCat;
-using CompulsoryCat.Beta;
 
 namespace TestCompulsoryCat
 {
@@ -53,7 +52,7 @@ namespace TestCompulsoryCat
         public void TestNormal()
         {
             var lst = new List<string> { "a", "abc", "abcde" };
-            var res = CompulsoryCat.Beta.ListExtension.SplitToListsOfEqualLength(lst, 2);
+            var res = CompulsoryCat.ListExtension.SplitToListsOfEqualLength(lst, 2);
             Assert.AreEqual(3, res.Count);
             Assert.AreEqual(3, res[0].Count);
             Assert.AreEqual("a", res[0][0]);
@@ -73,7 +72,7 @@ namespace TestCompulsoryCat
         public void TestWithNull()
         {
             var lst = new List<string> { "a", null, "abcde" };
-            var res = CompulsoryCat.Beta.ListExtension.SplitToListsOfEqualLength(lst, 4);
+            var res = CompulsoryCat.ListExtension.SplitToListsOfEqualLength(lst, 4);
             Assert.AreEqual(3, res.Count);
             Assert.AreEqual(2, res[0].Count);
             Assert.AreEqual("a", res[0][0]);
@@ -91,7 +90,7 @@ namespace TestCompulsoryCat
         public void TestAllNull()
         {
             var lst = new List<string> { null, null };
-            var res = CompulsoryCat.Beta.ListExtension.SplitToListsOfEqualLength(lst, 3);
+            var res = CompulsoryCat.ListExtension.SplitToListsOfEqualLength(lst, 3);
             Assert.AreEqual(2, res.Count);
             Assert.AreEqual(0, res[0].Count);
             Assert.AreEqual(0, res[1].Count);

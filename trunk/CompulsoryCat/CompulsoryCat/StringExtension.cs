@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CompulsoryCat.Beta
+namespace CompulsoryCat
 {
     /// <summary>This class contains extention methods (and helper methods) to the string class.
     /// </summary>
