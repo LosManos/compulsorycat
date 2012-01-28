@@ -63,17 +63,15 @@ namespace TestCompulsoryCat
         //
         #endregion
 
-        /// <summary>
-        ///A test for Add
+        /// <summary>A test forDictionary[string,assemblyname].Add.
         ///</summary>
         [TestMethod()]
         public void AddTest()
         {
-            Assert.Inconclusive("TBA");
-            Dictionary<string, AssemblyName> me = null; // TODO: Initialize to an appropriate value
-            AssemblyName assemblyname = null; // TODO: Initialize to an appropriate value
-            DictionaryExtensions.Add(me, assemblyname);
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
+            var me = new Dictionary<string,AssemblyName>();
+            AssemblyName assemblyname = new AssemblyName();
+            me.Add( assemblyname);
+            Assert.AreEqual(1, me.Count);
         }
     }
 }

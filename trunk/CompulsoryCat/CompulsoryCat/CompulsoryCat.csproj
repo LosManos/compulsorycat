@@ -44,6 +44,7 @@
     <Compile Include="Assemblyname\AssemblynameHelper.AssemblynameNode.cs" />
     <Compile Include="Assemblyname\AssemblynameHelper.cs" />
     <Compile Include="Assemblyname\AssemblynameTreeAndList.cs" />
+    <Compile Include="Exception\NoEntryAssemblyException.cs" />
     <Compile Include="ListExtension.cs" />
     <Compile Include="StringExtension.cs" />
     <Compile Include="MemberInfoExtension.cs" />

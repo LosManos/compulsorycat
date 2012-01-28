@@ -35,6 +35,9 @@ namespace CompulsoryCat.Assemblyname
         /// <param name="assemblynameList"></param>
         internal AssemblynameTreeAndList(AssemblynameHelper.AssemblynameNode info, List<AssemblyName> assemblynameList)
         {
+            if (null == info) { throw new System.ArgumentNullException("info"); }
+            if (null == assemblynameList) { throw new System.ArgumentNullException("assemblynameList"); }
+
             _info = info;
             _assemblynameList = new Dictionary<string, AssemblyName>();
             assemblynameList.ForEach(an => _assemblynameList.Add(an));
