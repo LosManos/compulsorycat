@@ -66,40 +66,26 @@ namespace TestCompulsoryCat
         #endregion
 
 
-        /// <summary>
-        ///A test for AssemblynameTreeAndList Constructor
+        /// <summary>A test for AssemblynameTreeAndList Constructor
+        ///</summary>
+        [TestMethod()]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void AssemblynameTreeAndListConstructorTestFail()
+        {
+            var res = new AssemblynameTreeAndList((AssemblynameHelper.AssemblynameNode)null, (List<AssemblyName>)null);
+        }
+
+        /// <summary>A test for AssemblynameTreeAndList Constructor
         ///</summary>
         [TestMethod()]
         public void AssemblynameTreeAndListConstructorTest()
         {
-            Assert.Inconclusive("TBA");
-            var res = new AssemblynameTreeAndList((AssemblynameHelper.AssemblynameNode)null, (List<AssemblyName>)null);
+            var info = new AssemblynameHelper.AssemblynameNode(Assembly.GetExecutingAssembly().GetName());  //  Just any info..
+            var lst = new List<AssemblyName>();
+
+            var res = new AssemblynameTreeAndList(info, lst);
+            Assert.IsNotNull(res);
         }
 
-        /// <summary>
-        ///A test for AssemblynameList
-        ///</summary>
-        [TestMethod()]
-        public void AssemblynameListTest()
-        {
-            Assert.Inconclusive("TBA");
-            AssemblynameHelper.AssemblynameNode info = null; // TODO: Initialize to an appropriate value
-            List<AssemblyName> assemblynameList = null; // TODO: Initialize to an appropriate value
-            var target = new AssemblynameTreeAndList(info, assemblynameList); // TODO: Initialize to an appropriate value
-            var res = target.AssemblynameList;
-        }
-
-        /// <summary>
-        ///A test for Tree
-        ///</summary>
-        [TestMethod()]
-        public void TreeTest()
-        {
-            Assert.Inconclusive("TBA");
-            AssemblynameHelper.AssemblynameNode info = null; // TODO: Initialize to an appropriate value
-            List<AssemblyName> assemblynameList = null; // TODO: Initialize to an appropriate value
-            var target = new AssemblynameTreeAndList(info, assemblynameList); // TODO: Initialize to an appropriate value
-            var res = target.Tree;
-        }
     }
 }

@@ -29,6 +29,9 @@ namespace CompulsoryCat.Assemblyname
             _assemblynameList = new Dictionary<string, AssemblyName>();
 
             Assembly entryAssembly = Assembly.GetEntryAssembly();
+
+            if (null == entryAssembly) { throw new Exception.NoEntryAssemblyException(); }
+
             return Get(entryAssembly);
         }
 
@@ -39,9 +42,13 @@ namespace CompulsoryCat.Assemblyname
         /// <returns></returns>
         public static AssemblynameTreeAndList Get(Assembly assembly)
         {
+            if (null == assembly) { throw new System.ArgumentNullException("assembly"); }
+
+            //  See comments for Get(void).
+            _assemblynameList = new Dictionary<string, AssemblyName>();
+
             var infoTree = GetRecursive(assembly);
             return new AssemblynameTreeAndList(infoTree, _assemblynameList.Values.ToList());
-
         }
 
         /// <summary>This is the method for recursing through the AssemblyNames.
@@ -51,6 +58,8 @@ namespace CompulsoryCat.Assemblyname
         /// <returns></returns>
         private static AssemblynameNode GetRecursive(Assembly assembly)
         {
+            if (null == assembly) { throw new System.ArgumentNullException("assembly"); }
+
             //  http://msdn.microsoft.com/en-us/magazine/cc163641.aspx <- reflection
             //  http://dotnetdebug.net/2005/11/15/net-assembly-loader/
             //  http://stackoverflow.com/questions/3971793/what-when-assembly-getreferencedassemblies-returns-exe-dependency    <- reflectiononlyload and ditto loadfrom.  solves which problem?
