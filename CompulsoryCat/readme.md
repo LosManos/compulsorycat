@@ -23,7 +23,10 @@ See a tad more <a href="http://code.google.com/p/compulsorycat/source/browse/tru
 See a tad more <a href="http://code.google.com/p/compulsorycat/source/browse/trunk/CompulsoryCat/ApplicationInfoExample/Program.cs">here</a>.
 
 There is a helper method for splitting a string into parts.
+
+```csharp
 "abcdefg".SplitToLength(3) => "abc","def","g"
+```
 
 ----
 
