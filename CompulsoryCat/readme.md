@@ -1,38 +1,4 @@
-# CompulsoryCat
-is a small collection of helper methods.
-
-## There is the class MetaData for getting meta data out of dotnet4 classes.
-Use it for instance for avoiding
-
-```csharp
-    void MyMethod(){
-        MyLoggingMethod( "MyMethod", "Start" );
-        ...
-```
-and instead
-
-```csharp
-    void MyMethod(){
-        MyLoggingMethod( GetMethod().Name, "Start" );
-        ...
-```
-
-See a tad more <a href="http://code.google.com/p/compulsorycat/source/browse/trunk/CompulsoryCat/CompulsoryCatExample/Program.cs">here</a>.
-
-## There is the class Assemblyname for retrieving a tree of the AssemblyNames the running application uses.
-See a tad more <a href="http://code.google.com/p/compulsorycat/source/browse/trunk/CompulsoryCat/ApplicationInfoExample/Program.cs">here</a>.
-
-There is a helper method for splitting a string into parts.
-
-```csharp
-"abcdefg".SplitToLength(3) => "abc","def","g"
-```
-
-----
-
-Original, and deprecated, repository was at Google code: https://code.google.com/p/compulsorycat/
-
-----
+# Readme for the CompulsoryCat project solution
 
 Protecting angel is Lews Carrol.
 So every file should begin with a tribute
