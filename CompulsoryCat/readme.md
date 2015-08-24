@@ -20,12 +20,12 @@ and instead
 See a tad more <a href="http://code.google.com/p/compulsorycat/source/browse/trunk/CompulsoryCat/CompulsoryCatExample/Program.cs">here</a>.
 
 ## There is the class Assemblyname for retrieving a tree of the AssemblyNames the running application uses.
-See a tad more here.
+See a tad more <a href="http://code.google.com/p/compulsorycat/source/browse/trunk/CompulsoryCat/ApplicationInfoExample/Program.cs">here</a>.
 
 There is a helper method for splitting a string into parts.
 "abcdefg".SplitToLength(3) => "abc","def","g"
 
-
+----
 
 Protecting angel is Lews Carrol.
 So every file should begin with a tribute
