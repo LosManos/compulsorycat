@@ -14,7 +14,7 @@ and instead
         MyLoggingMethod( GetMethod().Name, "Start" );
         ...
         
-See a tad more [here](http://code.google.com/p/compulsorycat/source/browse/trunk/CompulsoryCat/CompulsoryCatExample/Program.cs).
+See a tad more <a href="http://code.google.com/p/compulsorycat/source/browse/trunk/CompulsoryCat/CompulsoryCatExample/Program.cs">here</a>.
 
 ## There is the class Assemblyname for retrieving a tree of the AssemblyNames the running application uses.
 See a tad more here.
