@@ -29,7 +29,9 @@ There is a helper method for splitting a string into parts.
 ```
 
 ----
+
 Original, and deprecated, repository was at Google code: https://code.google.com/p/compulsorycat/
+
 ----
 
 Protecting angel is Lews Carrol.
