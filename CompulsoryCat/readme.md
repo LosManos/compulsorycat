@@ -15,7 +15,7 @@ and instead
     void MyMethod(){
         MyLoggingMethod( GetMethod().Name, "Start" );
         ...
-```ruby
+```
 
 See a tad more <a href="http://code.google.com/p/compulsorycat/source/browse/trunk/CompulsoryCat/CompulsoryCatExample/Program.cs">here</a>.
 
